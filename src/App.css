@@ -9,10 +9,10 @@
   font-size: 16px;
   color: rgba(236, 231, 231, 0.87);
   padding: 5%;
-  background-image: url("/src/assets/background.jpg");
-  background-repeat: no-repeat;
+  background: url("/src/assets/background.jpg") no-repeat center center fixed; 
   background-size: cover;
 }
+
 
 .icons {
   max-width: 50px;
