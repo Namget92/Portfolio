@@ -1,4 +1,7 @@
 import "./App.css";
+import cme from "./assets/cme.png";
+import github from "./assets/github.png";
+import linkedIn from "./assets/linkedIn.png";
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function App() {
           >
             <img
               className="icons"
-              src="/src/assets/cme.png"
+              src={cme}
               alt="Changemaker Educations Logo"
             />
           </button>
@@ -34,11 +37,7 @@ function App() {
               window.open("https://github.com/Namget92", "_blank");
             }}
           >
-            <img
-              className="icons"
-              src="/src/assets/github.png"
-              alt="Github Icon"
-            />
+            <img className="icons" src={github} alt="Github Icon" />
           </button>
           <button
             onClick={() => {
@@ -48,11 +47,7 @@ function App() {
               );
             }}
           >
-            <img
-              className="icons"
-              src="/src/assets/linkedIn.png"
-              alt="Linkedin Icon"
-            />
+            <img className="icons" src={linkedIn} alt="Linkedin Icon" />
           </button>
         </div>
       </div>
