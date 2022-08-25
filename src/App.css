@@ -1,0 +1,95 @@
+
+:root {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0;
+  display: grid;
+  align-items: center;
+  font-size: 16px;
+  color: rgba(236, 231, 231, 0.87);
+  padding: 5%;
+  background-image: url("/src/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icons {
+  max-width: 50px;
+  padding: 3%;
+}
+
+.icon-container {
+display: grid;
+justify-items: center;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  border: 1px solid transparent;
+  border-radius: 2.5%;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  padding: 0;
+  max-width: 50px;
+}
+
+p, h1 {
+  margin: 0;
+  text-align: center;
+  
+}
+p, h1, .icon-container {
+margin-bottom: 6%;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.3rem; 
+  transform: rotate(-10deg);
+
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  line-height: 30px;
+}
+
+@media (min-width: 400px){
+h1{
+  font-size: 4rem;
+}
+}
+@media (min-width: 700px){
+.App {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  h1 {
+    margin-bottom: 5%;
+    font-size: 4.5rem;
+  }
+  p {
+    font-size: 2rem;
+    line-height: 40px;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 1000px){
+.App {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  h1 {
+    margin-bottom: 7.5%;
+    font-size: 5rem;
+  }
+  p {
+    font-size: 2.5rem;
+    line-height: 50px;
+    margin-bottom: 7.5%;
+  }
+}
